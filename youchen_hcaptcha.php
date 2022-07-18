@@ -3,7 +3,7 @@
 Plugin Name: hCAPTCHA验证码
 Version: 1.0
 Description: 在注册/注册的时候，要求用户输入 hCAPTCHA 验证码，来起到防止恶意注册和打击密码爆破的作用，基于loyisa的进行recaptcha插件修改
-Author: youchen
+Author: 游辰
 Author Email: 2633774175@qq.com
 Author URL: https://blog.youchen.cf
 For: V3.4+
