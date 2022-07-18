@@ -68,7 +68,7 @@ function youchen_hcaptcha_check()
  */
 function get_recaptcha($secret, $response, $remoteip)
 {
-    // 和recaptcha服务器二次校验
+    // 和hcaptcha服务器二次校验
     $getjsonurl = file_get_contents('https://hcaptcha.com/siteverify?secret=' . $secret . '&response=' . $response . '&remoteip=' . $remoteip);
     // 解析获取到的json
     $response = json_decode($getjsonurl);
